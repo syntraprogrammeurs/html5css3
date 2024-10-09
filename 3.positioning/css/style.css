@@ -1,0 +1,30 @@
+#box{
+    height:100px;
+    width:100px;
+    background:blue;
+    float:left;
+}
+#parent{
+    height:500px;
+    width:1280px;
+    /*background:yellow;*/
+    /*background:#5f4312;*/
+    /*background:rgb(0,100,100);*/
+    /*background:rgba(0,100,0,0.5);*/
+    /*background:hsl(120,100%,50%);
+
+     */
+    /*background:linear-gradient(45deg,red,yellow);*/
+    /*background:radial-gradient(circle,blue,purple);*/
+    background:url('../img/archi.jpg') right bottom;
+    position:relative;
+}
+#child{
+    height:100px;
+    width:100px;
+    background:orange;
+    position:absolute;
+
+    bottom:0px;
+}
+
