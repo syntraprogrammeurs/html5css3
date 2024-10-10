@@ -1,66 +1,23 @@
-.flexboxcontainer{
-    display:flex;
+*{
+    box-sizing:border-box;
 }
-.blok1,.blok2,.blok3{
-    height:200px;
+
+
+#box1,#box2{
+
+
     width:200px;
+    height:200px;
+    border:1px solid black;
 }
-.blok1{
-    background:red;
+#box1{
+    padding: 20px;
+    margin: 20px;
 }
-.blok2{
-    background:blue;
-}
-.blok3{
-    background:purple;
-}
-#flexboxrow-reverse{
-    flex-direction:row-reverse;
-}
-#flexboxcolumn{
-    flex-direction:column;
-}
-#flexboxcolumn-reverse{
-    flex-direction: column-reverse;
-}
-#flexboxjustify,#flexboxjustifystart,#flexboxjustifyend,#flexboxjustifybetween,#flexboxjustifyaround,#flexboxjustifyevenly,#alignitemsstart,#alignitems{
-    width:100%;
-    background:yellow;
-    height:300px;
-    /*border:3px solid black;*/
-    border:10px dotted rgba(100,100,100,0.5);
-}
-#flexboxjustify{
-     justify-content:center;
-}
-#flexboxjustifyend{
-    justify-content:end;
-}
-#flexboxjustifystart{
-    justify-content:start;
-}
-#flexboxjustifybetween{
-    justify-content:space-between;
-}
-#flexboxjustifyaround{
-    justify-content:space-around;
-}
-#flexboxjustifyevenly{
-    justify-content: space-evenly;
-}
-#alignitemsstart{
-    align-items:flex-start;
-}
-#alignitems{
-    align-items:center;
-}
-#centercenter{
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-}
+#box2 {
+    padding: 20px;
 
-
-
-
-
+}
+h1{
+    padding-right: 41px;
+}

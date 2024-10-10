@@ -1,0 +1,13 @@
+*{
+    box-sizing:border-box;
+}
+@font-face {
+    font-family: test;
+    src: url('../fonts/Raleway-Regular.ttf');
+}
+body{
+    font-family:test, Arial, Helvetica;
+}
+
+
+

@@ -1,0 +1,21 @@
+#content{
+    padding:750px 0px;
+    background-color:cadetblue;
+    font-size:100px;
+    color:#fff;
+}
+
+.parallax{
+    /** hier zet je de backgroundimage die moet scrollen*/
+    background-image: url('../images/backgroundparallax.jpg');
+    /**FULL HEIGHT**/
+    height:750px;
+    /**CREATIE VAN HET PARALLAX SCROLL EFFECT**/
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+
+
